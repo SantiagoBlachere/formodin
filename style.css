@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Norse;
+    src: url("./Norse-Bold.otf");
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+}
+.sideSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 30vw;
+    height: 100vh;
+    background-image: url(./israel-albornoz-Eo5bfZKnjmo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo-container > p {
+    
+    font-size: 1em;
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(0,0,0, 0.8);
+    margin-top: 20%;
+    
+}
+h1 {
+    
+    font-size: 90px;
+    color: white;
+    font-family: Norse;
+    
+}
+.logo {
+    padding: 10px 0;
+    max-width: 50%;
+    height: 100px;
+    display: block;
+    
+    
+}
+.photo-container {
+    display: flex;
+    width: 100%;
+    background-color: rgb(5,0,0, 0.4);
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.rightSideContainer {
+    display: flex;
+    
+    width: 70vw;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.formIntro {
+    height: 33%;
+    background-color: 	rgb(240,240,240)
+}
+.formIntro > p:first-child {
+    padding-left: 40px;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: bold;
+    width: 49%;
+}
+.formIntro > p:last-child {
+    padding-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+span {
+    font-style: italic;
+}
+.formContainer {
+    height: 33%;
+}
+.form {
+    padding-left: 20px;
+    display: flex;
+    font-size: 100px;
+    
+    width: 70vw;
+}
+.firstColumn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+legend {
+    font-size: 25px;
+    padding-left: 25px;
+    
+}
+
+.fieldset {
+    width: 59%;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.column {
+    margin: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+li {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:column;
+    
+}
+fieldset {
+    border: none;
+    color: 	rgb(32,32,32)
+    
+}
+input {
+    border: 1px rgb(232,232,232) solid;
+    border-radius: 1px;
+}
+input[type="password"]:invalid {
+    border: red 1px solid;
+    border-radius: 1px;
+}
+input[type="password"] + span::after {
+    font-size: 0.7rem;
+    position: absolute;
+    content: "*Passwords do not match";
+    color: red;
+    
+    
+    
+  }
+
+.submitContainer {
+    height: 33%;
+    background-color: 	rgb(240,240,240)
+}
